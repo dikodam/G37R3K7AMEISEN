@@ -7,7 +7,7 @@
     <ProjectGuid>{DBB24016-6ACF-43A9-8FFB-653A77C60D39}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>g37r3k7ameisen</RootNamespace>
+    <RootNamespace>AntMe.Player.g37r3k7ameisen</RootNamespace>
     <AssemblyName>g37r3k7ameisen</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -44,8 +44,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ameise.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="src\Ameise.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
