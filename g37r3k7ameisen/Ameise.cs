@@ -22,9 +22,8 @@ namespace AntMe.Player.g37r3k7ameisen
 
         public override string BestimmeKaste(Dictionary<string, int> anzahl)
         {
-            string kaste = "Standard";
             verhalten = new StandardVerhalten();
-            return kaste;
+            return "Standard";
         }
 
         public override void IstGestorben(Todesart todesart)
